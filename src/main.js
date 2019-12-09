@@ -16,6 +16,8 @@ Vue.use(ElementUI);
 
 import 'lib-flexible/flexible.js';
 import '@/styles/glabal.scss';
+import '@/styles/myEleStyle.scss'
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

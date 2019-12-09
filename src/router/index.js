@@ -1,10 +1,11 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import app from  '@/views/layout.vue';
-import home from  '@/views/home.vue';
-import firstDateil from  '@/views/firstDateil.vue';
-import secondDetail from  '@/views/secondDetail.vue';
-import thirdDetail from  '@/views/thirdDetail.vue';
+// 第一层主页
+import home from  '@/views/goodsListPage/home.vue';
+import firstDateil from  '@/views/goodsListPage/firstDateil.vue';
+import secondDetail from  '@/views/goodsListPage/secondDetail.vue';
+import thirdDetail from  '@/views/goodsListPage/thirdDetail.vue';
 import myAccount from  '@/views/headerPage/myAccount.vue';
 import contactUs from  '@/views/headerPage/contactUs.vue';
 import siginIn from  '@/views/headerPage/siginIn.vue';
