@@ -93,24 +93,25 @@ export default {
   border-radius: 4px;
 }
 .bg-purple-dark {
-  height: 110px;
+  height: 80px;
   background: #1013a1;
   z-index: 2;
 }
 .line{
-    height: 20px;
+    height: 10px;
 }
 .banner-menu {
+ 
   width: 40%;
   margin: auto;
 }
 .el-menu-demo {
-  height: 70px;
+  height: 50px;
   background: #1013a1;
   color: white;
   border: solid 1px #1013a1;
   li {
-    border-right: solid 4px white;
+    border-right: solid 3px white;
     width: 150px;
     text-align: center;
     color: white;

@@ -1,7 +1,7 @@
 <template>
   <div class="header_box" > 
     <div class="header_left">
-      <div class="title" >
+      <div class="title" @click="goHome" >
         Phersion
       </div>
       <div class="query">

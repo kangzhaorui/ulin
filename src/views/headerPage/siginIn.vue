@@ -1,10 +1,10 @@
 <template>
   <div class="login_main">
-    <div class="line"></div>
+    <!-- <div class="line"></div> -->
     <div class="login">
       <div class="el-form">
         <div class="title">
-          <h1>系统登录</h1>
+          <h1>System landing</h1>
         </div>
         <el-form
           :model="ruleForm"
@@ -14,20 +14,20 @@
           label-width="100px"
           class="demo-ruleForm"
         >
-          <el-form-item label="用户名" prop="username">
+          <el-form-item label="User Name" prop="username">
             <el-input v-model.number="ruleForm.username"></el-input>
           </el-form-item>
-          <el-form-item label="密码" prop="pass">
+          <el-form-item label="Password" prop="pass">
             <el-input type="password" v-model="ruleForm.pass" autocomplete="off"></el-input>
           </el-form-item>
           <el-form-item>
-            <el-link type="primary">忘记密码</el-link>
-            <el-link type="primary">去注册</el-link>
+            <el-link type="primary">Forgot password </el-link>
+            <el-link type="primary">Register</el-link>
           </el-form-item>
 
           <el-form-item>
-            <el-button type="primary" @click="submitForm('ruleForm')">提交</el-button>
-            <el-button @click="resetForm('ruleForm')">重置</el-button>
+            <el-button type="primary" @click="submitForm('ruleForm')">Submit</el-button>
+            <el-button @click="resetForm('ruleForm')">Reset</el-button>
           </el-form-item>
         </el-form>
       </div>
@@ -106,13 +106,18 @@ export default {
   width: 100%;
   min-height: 80vh;
   background: lightgrey;
+  position: relative;
 }
 .login {
   width: 500px;
   height: 600px;
   background: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   margin: auto;
-  display: flex;
 }
 .el-form {
   width: 90%;

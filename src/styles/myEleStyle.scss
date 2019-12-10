@@ -8,9 +8,9 @@
     color: white;
 }
 .el-menu--horizontal>.el-submenu:focus .el-submenu__title{
-    color: black;
-    font-size: 18px;
-    font-weight: 600;
+  color: lightgrey;
+  font-size: 20px;
+  font-weight: 800;
 }
 .el-carousel__button{
     height: 20px;
@@ -19,5 +19,9 @@
   }
   .el-menu--horizontal>.el-submenu.is-active .el-submenu__title{
     border-bottom:#1013a1;
+    color: white;
 
+  }
+   .el-menu--horizontal>.el-submenu:hover .el-submenu__title{
+    color: black;
   }
